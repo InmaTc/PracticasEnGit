@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.cabecera{
+	background-image: url(../img/logo.jpg);
+	background-size: 100% 100%;
+}
+h1 {
+    padding-bottom: 3em;
+    padding-right: 4em;
+    color: green;
+}
+body{
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.navegacion{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    color: white;
+	text-align: center;
+    background-color: black;
+}
+
+.navegacion a:first-child{
+    border-left: 0 solid ;
+}
+
+.menuHorizontal	{
+	border: 0.2em solid orange;
+	display: inline;
+}
+
+.menuHorizontal a{
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    border-left: 0.2em solid orange;
+    text-decoration: none;
+} 
+
+.menuHorizontal a:hover, a:active {background: red}
+
+.central {
+    background-color:  #E0E000;
+	overflow: hidden;
+    height: 20em;
+}
+
+.listado {
+    background-color:gray;
+	width: 30%;
+	float: right;
+	padding-left: 3em;
+    height: 20em;
+    padding-top: 1em;
+    color: blue;
+}
+
+.derecha {
+	color: maroon;
+    width: 70%;
+}
+h3{
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.menuVertical {
+    margin: 1em;
+    list-style: none;
+    border: 0.5px solid grey;
+    width: 7em;
+}
+
+.menuVertical li {
+    border-bottom: 0.2px solid grey;
+}
+.menuVertical li:last-child{
+    border-bottom: 0 solid ;
+}
+
+.menuVertical li a 	{
+    padding: 0.5em 0 0.5em 1.5em;
+    color: black;
+    display: block;
+    background: #F7F323;
+    text-decoration: none;
+}
+
+.menuVertical a:hover, .menuVertical a:active {background: #58FA58}
+
+.listado ul {
+    padding-left: 2em;
+}
+
+.pie {
+    background-color: black;
+    color: white;
+}		
+.autor {
+    float: right;
+}	
