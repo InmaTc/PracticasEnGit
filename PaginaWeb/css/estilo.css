@@ -41,8 +41,14 @@ body{
     font-size: 1em;
     font-weight: bold;
     color: white;
+    /*    
+    Dejo comentado border-left para que no se aplique a los estilos
+          
     border-left: 0.2em solid orange;
+    */
     text-decoration: none;
+    /* Añado outline a los enlaces del menú horizontal */
+    outline: medium orange solid;
 } 
 
 .menuHorizontal a:hover, a:active {background: red}
